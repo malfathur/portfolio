@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
       'Drop a folder of PDFs, get back structured CSV + markdown report in seconds. Schema-driven field extraction via Groq LLM — swap the JSON schema file to support any document type without touching code.',
     stack: ['Python', 'Groq API', 'Llama 3.3 70B', 'PyMuPDF', 'Click'],
     demoUrl: undefined,
-    repoUrl: undefined,
+    repoUrl: 'https://github.com/malfathur/pdf-triage-agent',
     status: 'live',
   },
   {
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
       'Self-hosted HR portal for small teams. Leave management, WFH requests, expense claims, clock in/out, one-click email approvals, role-based access, and a full admin console. 28 Playwright tests.',
     stack: ['Node.js', 'Express', 'Turso', 'Alpine.js', 'Resend'],
     demoUrl: 'https://teamly-x5g1.onrender.com/preview',
-    repoUrl: undefined,
+    repoUrl: 'https://github.com/malfathur/teamly',
     status: 'live',
   },
   {
@@ -53,8 +53,8 @@ export const PROJECTS: Project[] = [
     description:
       'Self-hosted personal finance tracker. Log transactions against a hierarchical category tree, set monthly budgets, track recurring commitments, and get automatic overspend alerts. Multi-user, admin-managed.',
     stack: ['Next.js 14', 'TypeScript', 'Turso', 'Tailwind CSS', 'JWT'],
-    demoUrl: undefined,
-    repoUrl: undefined,
+    demoUrl: 'https://ledgr-m27h.onrender.com/preview',
+    repoUrl: 'https://github.com/malfathur/ledgr',
     status: 'live',
   },
 ]

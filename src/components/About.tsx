@@ -28,7 +28,7 @@ const DOMAINS = [
 const HIGHLIGHTS = [
   'Platform Development Manager at eProfiler Solutions Ltd',
   'Bridge between laboratory science and cloud infrastructure',
-  'Physics background (PhD candidate) — rigour applied to every build',
+  'Physics PhD candidate, Universiti Malaya',
   'Distributed team lead across UK, Afghanistan, and Malaysia',
   'Daily user of LLMs and AI tools to accelerate development',
   'Builds across data science, automation, and personal tooling',
@@ -59,7 +59,7 @@ export default function About() {
               <p className="text-[13px] text-[#4b5568] dark:text-gray-400 leading-[1.7] mb-4">
                 Platform Development Manager at eProfiler Solutions — translating experimental
                 sensor data into automated cloud workflows, and using AI tools daily to build
-                faster. Physics background (PhD candidate, Universiti Malaya) informs the rigour.
+                faster. Currently completing a PhD in Physics at Universiti Malaya (thesis stage).
               </p>
               <ul className="list-none m-0 p-0">
                 {HIGHLIGHTS.map(h => (

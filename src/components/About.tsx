@@ -27,7 +27,7 @@ const DOMAINS = [
 
 const HIGHLIGHTS = [
   'Platform Development Manager at eProfiler Solutions Ltd',
-  'Bridge between laboratory science and cloud infrastructure',
+  'Designs scientific data pipelines for solid-state and electrochemical analysis — regression modelling, peak detection, EIS fitting',
   'Physics PhD candidate, Universiti Malaya',
   'Distributed team lead across UK, Afghanistan, and Malaysia',
   'Daily user of LLMs and AI tools to accelerate development',

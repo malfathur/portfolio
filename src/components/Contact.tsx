@@ -1,6 +1,18 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail, Check } from 'lucide-react'
+import { useState } from 'react'
+
+const EMAIL = 'malfathur23@gmail.com'
 
 export default function Contact() {
+  const [copied, setCopied] = useState(false)
+
+  const handleEmail = () => {
+    navigator.clipboard.writeText(EMAIL).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
   return (
     <section id="contact" className="bg-[#dbeafe] dark:bg-dark py-24 px-6 text-center transition-colors">
       <div className="max-w-[520px] mx-auto">
@@ -15,13 +27,13 @@ export default function Contact() {
           engineering, product, or operations.
         </p>
 
-        <a
-          href="mailto:malfathur23@gmail.com"
+        <button
+          onClick={handleEmail}
           className="inline-flex items-center gap-2 bg-orange hover:bg-orange/90 text-white font-bold text-sm px-6 py-3 rounded-full transition-colors mb-8"
         >
-          <Mail size={15} />
-          malfathur23@gmail.com
-        </a>
+          {copied ? <Check size={15} /> : <Mail size={15} />}
+          {copied ? 'Copied!' : EMAIL}
+        </button>
 
         <div className="flex justify-center gap-5">
           <a

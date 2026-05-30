@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Sun, Moon } from 'lucide-react'
 
-const LINKS = ['About', 'Projects', 'Skills', 'Contact'] as const
+const LINKS = ['About', 'Work', 'Projects', 'Skills', 'Contact'] as const
 
 interface NavProps {
   dark: boolean

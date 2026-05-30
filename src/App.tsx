@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
+import Work from './components/Work'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
@@ -17,6 +18,7 @@ export default function App() {
         {/* ref-style page: single bg-bg flow, sections spaced with py-10 */}
         <div className="pb-16">
           <About />
+          <Work />
           <Projects />
           <Skills />
         </div>

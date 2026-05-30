@@ -53,7 +53,7 @@ export default function Nav({ dark, onToggle }: NavProps) {
         </button>
 
         <a
-          href="/Akmal_Fathurrahman_CV.pdf"
+          href="/portfolio/Akmal_Fathurrahman_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[11px] font-bold bg-orange text-white px-3 py-1.5 rounded-full hover:bg-orange/90 transition-colors"

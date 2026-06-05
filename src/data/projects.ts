@@ -40,8 +40,8 @@ export const PROJECTS: Project[] = [
     title: 'Teamly — HR Portal',
     category: 'PB',
     description:
-      'Self-hosted HR portal for small teams. Leave management, WFH requests, expense claims, clock in/out, one-click email approvals, role-based access, and a full admin console. 28 Playwright tests.',
-    stack: ['Node.js', 'Express', 'Turso', 'Alpine.js', 'Resend'],
+      'Self-hosted HR portal for small teams. Leave management, WFH requests, expense claims, clock in/out, one-click email approvals, role-based access, and a full admin console. Includes an AI workforce-analytics layer (Groq / Llama 3.3 70B) that turns leave, claim, and WFH data into role-scoped management insights. 28 Playwright tests.',
+    stack: ['Node.js', 'Express', 'Turso', 'Alpine.js', 'Resend', 'Groq'],
     demoUrl: 'https://teamly-x5g1.onrender.com/preview',
     repoUrl: 'https://github.com/malfathur/teamly',
     status: 'live',

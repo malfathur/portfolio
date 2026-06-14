@@ -64,9 +64,9 @@ export const PROJECTS: Project[] = [
     description:
       'Turns raw marketing exports into KPIs, A–F benchmark grades, charts, and an AI-written report. Auto-detects Meta, Google, SEO, social, and influencer formats, with a validation-first deep mode for paid social (audience-fatigue detection, objective-aware recommendations), a CPA-weighted budget optimiser, and an Ask-the-Analyst follow-up chat. 21 unit tests.',
     stack: ['Python', 'Streamlit', 'pandas', 'Plotly', 'Groq', 'Llama 3.3 70B'],
-    demoUrl: undefined,
-    repoUrl: undefined,
-    status: 'wip',
+    demoUrl: 'https://adpulse.streamlit.app/',
+    repoUrl: 'https://github.com/malfathur/adpulse',
+    status: 'live',
   },
   {
     id: 'ledgr',

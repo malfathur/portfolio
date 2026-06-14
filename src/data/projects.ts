@@ -25,6 +25,17 @@ export const PROJECTS: Project[] = [
     status: 'wip',
   },
   {
+    id: 'skillscope',
+    title: 'SkillScope — Job Skills Gap Analysis',
+    category: 'PA',
+    description:
+      'Scrapes JobStreet Malaysia for AI Engineer and Data Analyst roles, extracts in-demand skills against a 115-skill taxonomy, and surfaces gap analysis in a live dashboard — which skills each role demands, top hiring companies, and the overlap between roles.',
+    stack: ['Python', 'Playwright', 'pandas', 'Streamlit', 'Plotly'],
+    demoUrl: undefined,
+    repoUrl: 'https://github.com/malfathur/skillscope',
+    status: 'live',
+  },
+  {
     id: 'pdf-triage',
     title: 'PDF Triage Agent',
     category: 'PB',
@@ -45,6 +56,17 @@ export const PROJECTS: Project[] = [
     demoUrl: 'https://teamly-x5g1.onrender.com/preview',
     repoUrl: 'https://github.com/malfathur/teamly',
     status: 'live',
+  },
+  {
+    id: 'adpulse',
+    title: 'AdPulse — Marketing Performance Tool',
+    category: 'PB',
+    description:
+      'Turns raw marketing exports into KPIs, A–F benchmark grades, charts, and an AI-written report. Auto-detects Meta, Google, SEO, social, and influencer formats, with a validation-first deep mode for paid social (audience-fatigue detection, objective-aware recommendations), a CPA-weighted budget optimiser, and an Ask-the-Analyst follow-up chat. 21 unit tests.',
+    stack: ['Python', 'Streamlit', 'pandas', 'Plotly', 'Groq', 'Llama 3.3 70B'],
+    demoUrl: undefined,
+    repoUrl: undefined,
+    status: 'wip',
   },
   {
     id: 'ledgr',

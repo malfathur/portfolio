@@ -9,6 +9,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 
 ### Added
+- AdPulse project card (PB — multi-channel marketing performance tool)
+- SkillScope project card (PA — JobStreet skills gap analysis)
 - GitHub Pages deployment via GitHub Actions
 - Light/dark mode toggle (full flip — white ↔ near-black)
 - Light blue theme for light mode

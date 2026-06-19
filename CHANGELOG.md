@@ -9,6 +9,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 
 ### Added
+- n8n Customer Support Triage project card (PB — self-improving RAG support pipeline); repo link
 - AdPulse project card (PB — multi-channel marketing performance tool); live demo + repo links
 - SkillScope project card (PA — JobStreet skills gap analysis)
 - GitHub Pages deployment via GitHub Actions

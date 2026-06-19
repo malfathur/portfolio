@@ -69,6 +69,17 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'n8n-support-triage',
+    title: 'n8n Customer Support Triage',
+    category: 'PB',
+    description:
+      'Self-improving RAG support pipeline in n8n. Answers customer tickets only from a live knowledge base and escalates anything it cannot ground to a human — whose reply is appended back to the KB, so coverage grows automatically. Difficulty/in-context gating, three-key Groq failover with backoff, and an error-trigger alerting workflow.',
+    stack: ['n8n', 'Groq', 'Llama 3.3 70B', 'Google Sheets', 'Resend', 'RAG'],
+    demoUrl: undefined,
+    repoUrl: 'https://github.com/malfathur/n8n-customer-support-triage',
+    status: 'live',
+  },
+  {
     id: 'ledgr',
     title: 'Ledgr — Finance Tracker',
     category: 'PC',
